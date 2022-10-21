@@ -1,2 +1,14 @@
-# finalproject
-This repository is for my final project.
+# Investigating the Impact of Nine-year Compulsory Education Policy on Female Attainment of College Education in China
+The average value of female pre-tax labor income shares in China decreased substantially from 1990 to 2020 and its value was always under 0.50, which meant females’ pre-tax labor income was less than males’. The education level difference between males and females was also still apparent. After the Nine-year Compulsory Education Law was implemented in 1986, and the Compulsory Education Law of the People’s Republic of China was officially revised in 2006, more and more people were being educated. However, even in 2019, there were still many uneducated women, nearly two and a half times as many as men. Through this project, we explore how the Nine-year Compulsory Education Policy affects females’ education attainments, especially college education. We describe the trends in female pre-tax labor income share in China from 1999 to 2019. We use linear regression to compare the proportion of females with college education levels before and after the Nine-year Compulsory Education Policy. We compare females’ data with males’ and discuss the possible reasons for inequality. Our results suggest that the Compulsory education policy does have a positive effect on college education levels, but there remains some inequality between males and females in college education.
+
+## Dependencies
+* [Python 3](https://www.python.org/)
+* [Jupyter](https://jupyter.org/)
+* [Anaconda](https://www.anaconda.com/)
+* [NumPy](https://numpy.org/)
+* [Pandas](https://pandas.pydata.org/)
+* [Matplotlib](https://matplotlib.org/)
+* [Scikit-Learn](https://scikit-learn.org/stable/index.html)
+
+## Data Description
+We retrieved the data from the website of the National Bureau of Statistics of China. Data in the file are obtained from National Sample Survey on Population Changes and the sampling fraction is different from year to year. Our discussion is based on the proportion so that different sampling fractions do not affect our results. The Compulsory Education Law of the People’s Republic of China was passed in 2006 and covers nine-year compulsory education (from primary school to junior high school). Because of the three-year high school system in China, we believe that the effects of the policy will be somewhat lagged, so we look at data before and after 2009 (three years after the law was passed) to get an idea of the effect. The time period for the data was from 1999 to 2019, and it’s separated into two periods: 1999-2009 and 2010-2019. Education level means the highest education level that a person achieved with college and higher education levels. The outcome variables we consider are the proportion of the population with college and higher education levels in the population aged 6 and over, the proportion of women with college and higher education levels in women aged 6 and over, and the proportion of women in the population with college and higher education levels.
